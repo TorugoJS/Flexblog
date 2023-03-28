@@ -259,9 +259,16 @@ img {
   text-align: center;
 }
 
-@media (max-widht: 800px) {
+@media (max-width: 800px) {
   .preco {
     padding-left: 10px;
     padding-left: 10px;
+  }
+  .preco .preco-item:nth-child(3) {
+    order: -2;
+  }
+
+  .preco .preco-item:nth-child(2) {
+    order: -1;
   }
 }
